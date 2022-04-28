@@ -1,0 +1,59 @@
+.cuisines{
+    margin-top: 40px;
+    
+
+    // display: flex;
+    h3{
+        font-size: 1.4rem;
+    }
+    .items{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        min-height: 40vh;
+        gap: 0px 30px;
+        position: relative;
+        margin-top: 10px;
+        overflow-x: auto ;
+        overflow-y: hidden ;
+    // border: 1px solid red;
+    
+    &::-webkit-scrollbar{
+        display: none;
+    }
+    
+    .item{
+        width: 260px;
+        text-align: center;
+        margin-left: 7px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        // border: 1px solid violet;
+        position: relative;
+        
+        
+        
+        img{
+            max-width: 230px;
+            object-fit: contain;
+            border-radius: 20px;
+            
+        }
+        
+        h1{
+            background: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.6));   
+            font-size: 1rem;position: absolute;
+            line-height: 1.5;
+            padding: 10px 30px;
+            color: white;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+           
+        }
+        
+    }
+}
+}

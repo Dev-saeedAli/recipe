@@ -1,0 +1,69 @@
+.detailItems{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 50px;
+    // justify-content: center;
+    @media screen and(max-width: 768px) {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .detailitem{
+        margin: 10px 60px;
+
+        @media screen and(max-width: 768px) {
+            margin: 30px auto;
+        }
+
+        h4{
+            font-size: 2rem;
+            text-decoration: underline;
+            margin: 0px 0px 20px 0px;
+        }
+        img{
+            width: 300px;
+            object-fit: cover;
+        }
+    }
+    .options{
+        @media screen and(max-width: 768px) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+        }
+
+        button{
+            outline: unset;
+            box-shadow: unset ;
+            border: 1px solid black;
+            padding: 8px 15px;
+            background: none;
+            margin-bottom: 30px;
+            cursor: pointer;
+            margin-right: 10px;
+            border-radius: 7px;
+
+        &.active{
+            background: black;
+            color: white;
+        }
+    }
+}
+  .instruction{
+      p{
+          font-size: 1rem;
+          line-height: 1.6;
+          padding: 3px 5px;
+      }
+  }
+  .ingredient{
+      p{
+          font-size: 1rem;
+          line-height: 1.6;
+          padding: 3px 5px;
+          font-weight: 600;
+      }
+  }
+}

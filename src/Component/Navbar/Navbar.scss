@@ -1,0 +1,15 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+
+    svg{
+        font-size: 30px;
+        color: black;
+    }
+    span{
+        font-size: .9rem;
+        font-weight: 600;
+        margin-left: 6px;
+    }
+}

@@ -1,0 +1,63 @@
+.searchList {
+  min-width: 100%;
+  margin: 60px auto;
+  overflow-x: hidden;
+}
+
+.searchList h3 {
+  font-size: 1.4rem;
+}
+
+.searchList .searched {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  min-height: 40vh;
+  gap: 20px 30px;
+  margin-top: 10px;
+}
+
+.searchList .searched .search {
+  width: 260px;
+  text-align: center;
+  margin-left: 7px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: relative;
+}
+
+.searchList .searched .search img {
+  max-width: 230px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 20px;
+}
+
+.searchList .searched .search h1 {
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.4)), to(rgba(0, 0, 0, 0.6)));
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.6));
+  font-size: .7rem;
+  bottom: 10px;
+  color: white;
+  padding: 20px 50px;
+  margin: 0px 20px;
+  line-height: 1.7;
+  position: absolute;
+}
+/*# sourceMappingURL=Search.css.map */

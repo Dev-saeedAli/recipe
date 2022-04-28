@@ -1,0 +1,32 @@
+.form{
+    display: flex;
+    max-width: 500px;
+    // background: red;
+    margin: 30px auto 20px;
+
+    input[type="text"]{
+        outline: none;
+        border: none;
+        padding: 6px 40px;
+        border-radius: 6px ;
+        width: 100%;
+        background: rgba(43, 38, 38, 0.726);
+        color: white;
+        position: relative;
+
+        &::placeholder{
+            color: white;
+        }
+    }
+    span{
+        svg{
+            position: absolute;
+            font-size: 17px;
+            display: flex;
+            align-items: center;
+            height: 25px;
+            margin-left: 10px;
+            color: black;
+        }
+    }
+}

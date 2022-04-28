@@ -1,0 +1,49 @@
+.form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 500px;
+  margin: 30px auto 20px;
+}
+
+.form input[type="text"] {
+  outline: none;
+  border: none;
+  padding: 6px 40px;
+  border-radius: 6px;
+  width: 100%;
+  background: rgba(43, 38, 38, 0.726);
+  color: white;
+  position: relative;
+}
+
+.form input[type="text"]::-webkit-input-placeholder {
+  color: white;
+}
+
+.form input[type="text"]:-ms-input-placeholder {
+  color: white;
+}
+
+.form input[type="text"]::-ms-input-placeholder {
+  color: white;
+}
+
+.form input[type="text"]::placeholder {
+  color: white;
+}
+
+.form span svg {
+  position: absolute;
+  font-size: 17px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 25px;
+  margin-left: 10px;
+  color: black;
+}
+/*# sourceMappingURL=SearchBar.css.map */
